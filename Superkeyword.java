@@ -13,9 +13,7 @@ class B extends A {
     int h;
 
     // Constructor for class B
-    B() {
-        super(); // Calls the superclass (A) constructor
-        h = 30; // Initialize h
+   / Initialize h
     }
 
     // Method to calculate volume
@@ -30,4 +28,5 @@ public class SuperDemo {
         int r = b1.volume();
         System.out.println("The volume is: " + r);
     }
+
 }
