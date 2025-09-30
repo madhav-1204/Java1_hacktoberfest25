@@ -6,12 +6,9 @@ class MultiTryDemo {
             int[] d = {0, 1}; // Array with two elements
             System.out.println(d[10]);
             System.out.println(c);
-        } catch (ArithmeticException e) {
-            System.out.println(e);
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println(e);
-        }
+        } 
 
         System.out.println("After the catch statements");
     }
+
 }
